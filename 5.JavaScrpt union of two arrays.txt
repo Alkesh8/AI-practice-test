@@ -1,0 +1,10 @@
+//union of two arrays
+const arr1= [1,2,3]
+const arr2= [100,2,10]
+function getunion(array1,array2){
+    const difference=array1.filter(
+        element => !array2.includes(element)
+        );
+        return [...difference,...array2];
+}
+console.log(getunion(arr1,arr2));

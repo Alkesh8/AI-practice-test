@@ -1,0 +1,9 @@
+a=20
+b=10
+print('Before Swapping')
+print(a)
+print(b)
+print('after swapping')
+a,b=b,a
+print(a)
+print(b)

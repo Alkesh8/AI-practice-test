@@ -1,0 +1,5 @@
+#Program To find Second Largest number in array
+l1=[8,9,12,3,88,56,12]
+l2=list(set(l1))
+l2.sort()
+print('The second largesr no is:',l2[-2])
